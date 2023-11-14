@@ -6,9 +6,9 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
-  imports: [
-    NgFor, NgIf, AsyncPipe, RouterLink, RouterOutlet
-  ],
+  // imports: [
+  //   NgFor, NgIf, AsyncPipe, RouterLink, RouterOutlet
+  // ],
   standalone: true,
 })
 export class AppComponent {
